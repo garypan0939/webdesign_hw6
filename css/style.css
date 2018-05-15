@@ -1,0 +1,161 @@
+* {    
+    padding: 0;
+    margin: 0;    
+}
+html{
+    width: 1440px;
+}
+header{
+    line-height: 80px;
+    margin-top: 50px;
+}
+header img{
+    margin-left: 60px;
+}
+nav li{
+    float: left;
+    list-style: none;
+    margin: 0 15px;     
+}
+#About_Us{
+    margin-left: 540px;
+}
+nav li a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 14px;
+}
+nav li a:hover{
+    color: #d7ac41;
+    text-decoration: none;
+}
+.Center{    
+    text-align: center;    
+}
+.Middle{      
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%);	
+}
+#Banner h1{
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0, 05, 0, 0.5);
+}
+#Banner p{
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(0, 05, 0, 0.5);
+}
+#About img{
+    margin-bottom: 40px;
+}
+#About b{
+    font-size: 24px;
+    font-weight: 600;
+}
+#About p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.62;
+    margin: 0 335px;
+}
+#About hr{
+    width: 62px;
+    border: solid 1px;
+    color: #d7ac41;
+    margin: 40px auto;
+}
+#Service hr, #Team hr{
+    margin: 0 auto 25px auto;
+    width: 62px;
+    border: solid 1px;
+    color: #d7ac41;
+}
+.row div{
+    height: 60px;
+    width: 240px;
+    background-color: #ffffff;  
+    margin: 15px 15px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #6c6c6c
+}
+#Team{
+    text-align: center;
+    margin-top: 100px;
+}
+#Team h3{
+    font-size: 50px;
+    font-weight: 600px;
+}
+.introduction{
+    width: 1170px;
+    margin: 0 auto 60px auto; 
+    text-align: left;   
+    font-size: 14px;
+}
+.intro_content{
+    background-color: #f6f7f8;
+    width: 300px;
+    height: 400px;
+    padding: 60px 0 0 30px;
+}
+.intro_content div h5{
+    margin: 18px 0 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.intro_content h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.email{
+    margin-top: 20px;
+}
+.clear:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#Team h4{
+    font-size: 16px;
+    border: solid 1px;
+    color: #d7ac41;
+    width: 270px;
+    height: 60px;
+    margin: 0 auto 100px auto;
+    line-height: 60px;
+}
+.footer_content{
+    padding: 75px 0 100px 135px;    
+}
+#Contact hr{
+    width: 62px;
+    border: solid 1px;
+    color: #d7ac41;         
+}
+h2{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+#Contact p{
+    margin: 0 110px 20px 0;
+    font-size: 16px;
+}
+footer{
+    height: 48px;
+    background-color: #2b2c2c;
+    color: #ffffff; 
+    text-align: center;
+    line-height: 48px;  
+}
+.float_right{
+    float: right;
+}
+.float_left{
+    float: left;
+}
